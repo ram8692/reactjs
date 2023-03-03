@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import Person  from './Components/Person';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-     i am a react app
-      </header>
+     <Person/>
     </div>
   );
 }
